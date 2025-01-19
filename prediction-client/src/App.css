@@ -79,7 +79,7 @@ h2 {
 }
 @keyframes background-animation {
   0% {
-    background-image: url('../imgs/flood1.jpg');
+    background-image: url('../imgs/flood2.jpg');
   }
   25% {
     background-image: url('../imgs/flood3.jpg');
