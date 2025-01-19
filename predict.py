@@ -4,7 +4,7 @@ import sys
 import json
 
 # Load the model
-model_filename = 'C:/Users/dmuth/Desktop/Dave/strathmore/project/best_optimized_model.pkl'
+model_filename = './best_optimized_model.pkl'
 with open(model_filename, 'rb') as file:
     model = joblib.load(file)
 

@@ -79,19 +79,19 @@ h2 {
 }
 @keyframes background-animation {
   0% {
-    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood2.jpg');
+    background-image: url('../imgs/flood1.jpg');
   }
   25% {
-    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood3.jpg');
+    background-image: url('../imgs/flood3.jpg');
   }
  50% {
-    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood4.jpg');
+    background-image: url('../imgs/flood4.jpg');
   }
   75% {
-    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood6.jpg');
+    background-image: url('../imgs/flood6.jpg');
   }
  100% {
-    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood2.jpg');
+    background-image: url('../imgs/flood2.jpg');
   }
 }
 label {
