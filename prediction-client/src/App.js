@@ -44,7 +44,7 @@ const App = () => {
                     <div className="input-group">
                         <div className="input-column">
                             {inputs.slice(0, 10).map((input, index) => (
-                                <div key={index}> {/* Adjust for the second half */}
+                                <div key={index}>
                                 <label>{labels[index]}</label>
                                 <input
                                     type="number"
@@ -58,7 +58,7 @@ const App = () => {
                         </div>
                         <div className="input-column">
                             {inputs.slice(10, 20).map((input, index) => (
-                                <div key={index + 10}> {/* Adjust for the second half */}
+                                <div key={index + 10}>
                                     <label>{labels[index + 10]}</label>
                                     <input
                                         type="number"
