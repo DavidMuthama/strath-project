@@ -1,0 +1,102 @@
+/* src/App.css */
+
+.app-container {
+  position: cover; /* Set position relative for the container */
+  margin: 20px auto; /* Added margin for spacing */
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.9);
+  animation: background-animation 15s ease-in-out infinite;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  z-index: 2; /* Ensure the form is above the images */
+}
+
+.icon-container {
+  position:initial;
+  top: 20px;
+  right: 20px;
+  color: #ff0033;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: rgb(0, 8, 255);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-group {
+  display: flex;
+  justify-content:center;
+  gap: 20px;
+}
+
+.input-column {
+  width: 20%;
+}
+.input-column:first-child {
+  margin-right: 20px;
+}
+
+input {
+  margin: 10px 0;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%; /* Ensure it occupies full width of the column */
+}
+
+button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+h2 {
+  margin-top: 20px;
+  color: chartreuse;
+}
+
+/* Scrollable Content */
+.app-container {
+  max-height: calc(100vh - 40px); /* Keep some space from the top and bottom */
+  overflow-y: auto; /* Allow vertical scrolling */
+  padding-right: 10px; /* Prevent overflow from scrollbar */
+}
+@keyframes background-animation {
+  0% {
+    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood2.jpg');
+  }
+  25% {
+    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood3.jpg');
+  }
+ 50% {
+    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood4.jpg');
+  }
+  75% {
+    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood6.jpg');
+  }
+ 100% {
+    background-image: url('C:/Users/dmuth/Desktop/Dave/strathmore/project/prediction-client/imgs/flood2.jpg');
+  }
+}
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: chartreuse;
+}
